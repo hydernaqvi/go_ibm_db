@@ -13,7 +13,7 @@ package api
 import (
     "fmt"
 	"unsafe"
-	trc "github.com/ibmdb/go_ibm_db/log2"
+	trc "go_ibm_db/log2"
 )
 
 // #cgo aix LDFLAGS: -ldb2

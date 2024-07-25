@@ -6,7 +6,7 @@ package api
 
 import (
 	"syscall"
-    trc "github.com/ibmdb/go_ibm_db/log2"
+    trc "go_ibm_db/log2"
 	"fmt"
 )
 

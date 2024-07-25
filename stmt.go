@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 	"context"
-	"github.com/ibmdb/go_ibm_db/api"
+	"go_ibm_db/api"
 	"fmt"
-	trc "github.com/ibmdb/go_ibm_db/log2"
+	trc "go_ibm_db/log2"
 )
 
 type Stmt struct {

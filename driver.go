@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"flag"
 	"os"
-	"github.com/ibmdb/go_ibm_db/api"
-	trc "github.com/ibmdb/go_ibm_db/log2"
+	"go_ibm_db/api"
+	trc "go_ibm_db/log2"
 )
 
 var drv Driver

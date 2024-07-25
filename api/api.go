@@ -8,7 +8,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 	"runtime"
-	trc "github.com/ibmdb/go_ibm_db/log2"
+	trc "go_ibm_db/log2"
 	"fmt"
 )
 

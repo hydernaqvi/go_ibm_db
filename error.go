@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/ibmdb/go_ibm_db/api"
-	trc "github.com/ibmdb/go_ibm_db/log2"
+	"go_ibm_db/api"
+	trc "go_ibm_db/log2"
 )
 
 func IsError(ret api.SQLRETURN) bool {

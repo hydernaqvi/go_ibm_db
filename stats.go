@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ibmdb/go_ibm_db/api"
-	trc "github.com/ibmdb/go_ibm_db/log2"
+	"go_ibm_db/api"
+	trc "go_ibm_db/log2"
 )
 
 type Stats struct {
